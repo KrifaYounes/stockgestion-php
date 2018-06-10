@@ -25,3 +25,12 @@ cd C  ---> cd wamp ---> cd wwww ----> cd gestionstock
     - git commit -m "update project"
     - git push
     
+    
+    
+    
+    ANNEXE
+    on Windows do Ctrl + Alt + L
+    
+    on Linux do Ctrl + Windows Key + Alt + L
+    
+    on Mac do CMD + Alt + L

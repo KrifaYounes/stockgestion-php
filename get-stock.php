@@ -23,9 +23,6 @@
 <?php include("menu.php"); ?>
 
 
-
-
-
 <div class="content-wrapper">
     <div class="container-fluid">
         <!-- Breadcrumbs-->
@@ -38,7 +35,8 @@
         <!-- Example DataTables Card-->
         <div class="card mb-3">
             <div class="card-header">
-                <i class="fa fa-table"></i> Data Table Example</div>
+                <i class="fa fa-table"></i> Data Table Example
+            </div>
             <div class="card-body">
                 <div class="table-responsive">
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -76,8 +74,8 @@
 
                             <tr>
                                 <td> <?php echo $data['id']; ?></td>
-                                <td> <?php echo $data['value']  ; ?></td>
-                                <td> <?php echo $data['name']   ; ?></td>
+                                <td> <?php echo $data['value']; ?></td>
+                                <td> <?php echo $data['name']; ?></td>
                             </tr>
 
                             <?php
@@ -114,6 +112,3 @@
 </body>
 
 </html>
-
-
-

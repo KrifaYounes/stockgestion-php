@@ -4,18 +4,24 @@
  * Gestion de la base de donnes
  *
  */
-class DbConnect {
+class DbConnect
+{
 
     private $conn;
 
-    function __construct() {}
+    function __construct()
+    {
+    }
 
-    function __destruct() {}
+    function __destruct()
+    {
+    }
 
     /**
      * Establishing database connection
      */
-    function connect() {
+    function connect()
+    {
         try {
             // On se connecte à MySQL
             $this->conn = new PDO('mysql:host=localhost;dbname=gestionstock;charset=utf8',
@@ -24,13 +30,14 @@ class DbConnect {
 
             return $this->conn;
 
-        } catch(Exception $e) {
+        } catch (Exception $e) {
             // En cas d'erreur, on affiche un message et on arrête tout
-            die('Erreur : '.$e->getMessage());
+            die('Erreur : ' . $e->getMessage());
         }
     }
 
-    function close() {
+    function close()
+    {
 
     }
 
