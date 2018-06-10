@@ -58,7 +58,7 @@
                         <?php
 
 
-                        require_once __DIR__ . '/connexion-database.php';
+                        require_once __DIR__ . '/database.php';
 
 
                         // On se connecte à la base de données
