@@ -1,10 +1,20 @@
+
 - Dans C:/wamp/wwww  créer le répertoire gestionstock
 - Ouvrir GitBash puis aller dans le répertoire gestionstock 
 cd C  ---> cd wamp ---> cd wwww ----> cd gestionstock
-- dans gitbash dans le répertoire gestionstock lancer la commande 
-git clone https://github.com/KrifaYounes/stockgestion-php.git
+- dans gitbash dans le répertoire gestionstock lancer les commandes suivantes :
+- git config --global user.name "Mariem"
+- git config --global user.email "mariouma.mhenni@gmail.com"
+- git clone https://github.com/KrifaYounes/stockgestion-php.git
 - démarrer le server wamp ( l'icone doit etre verte en bas à droite )
 - aller dans http://localhost/gestionstock/index.php
+
+
+
+- télécharger le logiciel suivant :
+- https://www.jetbrains.com/idea/download/#section=mac
+- installer le logiciel 
+- ouvrir le projet gestionstock avec le logiciel
 
 
 
@@ -13,4 +23,5 @@ git clone https://github.com/KrifaYounes/stockgestion-php.git
     - lancer les commandes suivantes dans l'ordre
     - git add .
     - git commit -m "update project"
-    - 
+    - git push
+    
