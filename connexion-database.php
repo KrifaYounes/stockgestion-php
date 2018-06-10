@@ -19,7 +19,7 @@ class DbConnect {
         try {
             // On se connecte à MySQL
             $this->conn = new PDO('mysql:host=localhost;dbname=gestionstock;charset=utf8',
-                'root', 'root',
+                'root', '',
                 array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
 
             return $this->conn;
