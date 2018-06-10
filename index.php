@@ -9,7 +9,7 @@
   <meta name="author" content="">
   <title>Gestion de stock</title>
 
-  <!-- Bootstrap core CSS-->
+    <!-- Bootstrap core CSS-->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom fonts for this template-->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -24,13 +24,7 @@
 
     <?php include("menu.php"); ?>
 
-
-
-
-
-
-
-  <!-- Content -->
+    <!-- Content -->
   <div class="content-wrapper">
     <div class="container-fluid">
 
